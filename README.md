@@ -26,7 +26,8 @@ Once that this is done, let us look at the real translations. Open your favourit
 	print(translation.text)
  
 You can see below that the translation has been done
-(Output of the above script)
+![image](https://github.com/FKTech123/GoogleTrans/assets/116535666/4cb5e45a-d7f8-4fd8-b51b-203a514a4afe)
+
 
 If you remove the text, you will get to see additional information like the source language, pronunciation, etc, as shown below:
 
