@@ -39,9 +39,12 @@ If you remove the text, you will get to see additional information like the sour
 
 	translation = translator.translate('मेरा नाम फातिमा के है')
 
-	print(translation.text)
+	print(translation)
 
-(Output of the above script after removing .text in print statement)
+Output will be
+
+![image](https://github.com/FKTech123/GoogleTrans/assets/116535666/d1d864ab-ec4a-4c0f-9693-215088e80236)
+
 
 If you want the destination language to be something else and not English, you can use the 'dest' argument, as shown below:
 	Translated(src=hi, dest-en, text-my name is jishnu, pronunciation=None, extra_data=”{‘translat...”)
