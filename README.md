@@ -16,6 +16,7 @@ First, install this library using the following command on your terminal:
 	pip install googletrans==3.1.0a0
 
 Once that this is done, let us look at the real translations. Open your favourite text editor and type the following code. Basically, I am asking googletrans to translate a line in Hindi into english.
+
 	from gogletrans import Translator
 
  	translator = Translator()
@@ -23,10 +24,12 @@ Once that this is done, let us look at the real translations. Open your favourit
 	translation = translator.translate('मेरा नाम फातिमा के है')
 
 	print(translation.text)
+ 
 You can see below that the translation has been done
 (Output of the above script)
 
 If you remove the text, you will get to see additional information like the source language, pronunciation, etc, as shown below:
+
 	# Script for the example
 
  	from gogletrans import Translator
