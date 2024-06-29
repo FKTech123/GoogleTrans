@@ -12,6 +12,7 @@ The output also has additional information like the score in confidence or the p
 Now let us see how we can use googletrans to get some translations!
 
 First, install this library using the following command on your terminal:
+
 	pip install googletrans==3.1.0a0
 
 Once that this is done, let us look at the real translations. Open your favourite text editor and type the following code. Basically, I am asking googletrans to translate a line in Hindi into english.
